@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<style>
-	body { background-color: #eeedeb; color: #FFF; text-align: left; padding: 40px 0 0 40px; font-size: 5em; line-height: 1em; }
+<html lang="en">
+  <title> Aidan Martin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-	p {font-family: 'Helvetica Neue', Arial, Sans-serif; font-weight: bold; letter-spacing: -3px; padding:0px; margin: 0px;}
-	p.Date { color: #d7d4d0; }
-	</style>
-</head>
-<body>
-<p>Coming Soon</p>
-<p class="Date">Spring 2015</p>
-</body>
+  <style type="text/css">
+  	p {font-family: 'Roboto Mono', monospace;}
+
+
+p:after {
+  content: "_";
+  opacity: 0;
+  animation: cursor 1s infinite;
+}
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+  </style>
+  <body>
+  <div class="ph5-ns">
+  <p class=" fl w-100 f6">Hello World</p>
+  </div>
+
+  </body>
 </html>
